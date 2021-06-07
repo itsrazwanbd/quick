@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #FDEBED;
+	font-family: 'Roboto', sans-serif;
+}
+h1{
+	font-weight: 500;
+	color: #3f3d56;
+font-size: 40px;
+}
+h3{
+	padding: 10px 0px;
+	text-align: center;
+}
+.section-1{}
+.container{
+	width: 1200px;
+	margin: auto;
+}
+.content{
+	text-align: center;
+	margin: auto;
+}
+
+.content p{
+	text-align: center;
+	padding: 0px 300px;
+	font-size: 20px;
+}
+.content span{
+	color:#008aff;
+}
+
+.section-2{
+	padding: 100px 0px;
+}
+
+.flex{
+	display: flex;
+    flex-wrap: wrap;
+}
+.col-1-2{
+	flex-basis: 50%;
+}
+.left{
+	margin-left: auto;
+	text-align: right;
+	padding-right: 10px;
+}
+.left h1{
+	color: #e91e63;
+}
+.right{
+	text-align: left;
+	padding-left: 10px;
+}
+.right h1{
+	font-style: ;
+}
+.section-3{
+	margin: auto;
+	padding:80px 0;
+}
+
+.section-3 img{
+	width: 100%;
+}
+.card{
+	display: flex;
+}
+.card-box{
+	height: 400px;
+	padding: 20px;
+}
+.box{
+	width: 400px;
+	padding:10px ;
+
+	}
+	.one{
+		background:#00bcd426;
+	}
+.two{
+	background: #f4433614;
+}
+.three{
+	background: #00bcd426;
+}
